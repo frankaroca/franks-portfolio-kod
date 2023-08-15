@@ -1,0 +1,44 @@
+/* CSS Reset */
+
+/* Box sizing reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body reset */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Headings reset */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  
+  /* Lists reset */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Links reset */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Form elements reset */
+  input, textarea, button {
+    border: none;
+    outline: none;
+  }
+  
+  /* Clear floating elements */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
