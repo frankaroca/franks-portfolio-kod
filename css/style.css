@@ -17,19 +17,26 @@ header {
   padding: 10px;
   } #main-logo {
     width: 200px;
+    margin-left:40%; 
   } #avatar {
     width: 120px;
-    float: right;
+    float: left;
+    margin-top: 29px;
   }
 
 
 
 /* Navigation Styles */
+
 nav {
+  width: 100%;
   background-color: #444;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 9px;
 }
 
 nav ul {
@@ -39,24 +46,45 @@ nav ul {
 
 nav li {
   margin: 0 15px;
+  padding: 30px;
+  
 }
 
 nav a {
-  color: #fff;
+  color: white;
   text-decoration: none;
+   
 }
 
 /* Main Content Styles */
 .main-content {
-    margin-top: 200px;
-  padding: 20px;
+    box-sizing: 400px auto;
+    background-color: lightgray;
+    margin-top: 50px;
+    padding: 50px;
+    line-height: 40px;
+}
+
+.main-content .info-box{
+  width: 75%;
+  
+  background-color: lightblue;
+}
+
+#main-h2-title {
+  box-sizing: 100px 100px;
+  background-color: gold;
 }
 
 /* Footer Styles */
 footer {
-  margin-top: 250px;
-  background-color: #333;
+  position: absolute;
+  bottom: -100;
+  width: 100%;
+  margin-top: 80px;
+  background-color: #444;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  font-size: 15px;
+  padding: 25px;
 }
