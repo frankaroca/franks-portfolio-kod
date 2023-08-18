@@ -2,10 +2,16 @@
 
 /* Global Styles */
 
+:root {
+  --background-color: #5355504b;
+  --border-radius: 5px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif, serif;
   margin: 0;
   padding: 0;
+  text-align: justify;
 }
 
 /* Header Styles */
@@ -62,19 +68,76 @@ nav a {
     background-color: lightgray;
     margin-top: 50px;
     padding: 50px;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 .main-content .info-box{
+  display: block; 
   width: 75%;
-  
-  background-color: lightblue;
+  background-color: rgba(125, 142, 143, 0.342);
+  margin: auto 200px;
+  padding-bottom: 50px;
+}
+
+.main-content #bio {
+  width: 90%;
+  margin-left: 55px;
+  margin-top: 25px;
+  text-align: justify;
 }
 
 #main-h2-title {
   box-sizing: 100px 100px;
-  background-color: gold;
+  background-color: rgba(206, 157, 93, 0.281);
+  text-align: center;
 }
+
+
+.info-box ul{
+  list-style: none;
+  padding: 30px;
+} li {
+  padding-top: 10px;
+  margin-bottom: auto;
+} a {
+  display: inline-block;
+  padding-left: 40px; /* Add space for the icon */
+  background-repeat: no-repeat;
+  background-position: left center; /* Position the icon */
+  text-decoration: none;
+  background-size: 25px 25px;
+  margin-left: 15px;
+}
+
+
+
+.linkedin {
+  background-image: url(../assets/Linkedin-icon.png);
+}
+.linkedin:hover {
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+}
+
+
+
+.cellphone {
+  background-image: url(../assets/Phone-icon.png);
+}
+.cellphone:hover {
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);  
+}
+
+.email {
+  background-image: url(../assets/Email-icon.png);
+}
+.email:hover {
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+}
+
+
 
 /* Footer Styles */
 footer {
@@ -85,6 +148,12 @@ footer {
   background-color: #444;
   color: #fff;
   text-align: center;
-  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
   padding: 25px;
+}
+
+footer .header-footer {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
